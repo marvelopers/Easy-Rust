@@ -19,3 +19,24 @@ fn main() {
         }
     }
 }
+
+// Range
+fn range_main() {
+    // 0..3 exculsive Range || 0..3= inculsive Range
+    for number in 0..3 {
+        println!("The number is {}", number);
+    }
+}
+
+fn break_main() {
+    let mut counter = 5;
+
+    let my_number = loop {
+        counter += 1;
+        if counter % 53 == 3 {
+            break counter;
+        }
+    };
+
+    println!("my_number is now: {}", my_number);
+}
