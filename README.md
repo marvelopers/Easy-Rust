@@ -30,3 +30,8 @@
 ## memory + references
 
 stack, heap, pointers
+
+## struct
+
+- struct = and
+- enum = or
